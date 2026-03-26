@@ -1,0 +1,174 @@
+Devfolio - A software engineer portfolio
+
+This is a personal portfolio made by DANIEL-IDAHOSA OBAHIAGBON
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?0D57B5302506A6B1FDEE09DD05B6322C0EFE
+
+
+
+#---------- HEADER ----------#
+
+alt = Dannyphilz
+
+<span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+
+<span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+
+
+#---------- HERO ----------#
+
+alt = DANIEL-IDAHOSA-OBAHIAGBON
+
+
+
+DANIEL-IDAHOSA-OBAHIAGBON
+
+Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis tristique.
+
+<span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+Obahiagbondaniel@gmail.com
+
+<span class="material-symbols-outlined" aria-hidden="true"> call </span>
++2348035679079
+
+
+
+#---------- ABOUT CARD ----------#
+
+About
+
+A passionate web designer with a strong background in AI programming.
+
+<span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+Benin City,Nigeria
+
+<span class="material-symbols-outlined" aria-hidden="true"> work </span>
+TechGulf Solutions
+
+<span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+https://example.com
+
+
+
+#---------- PRIMARY TAB ----------#
+
+Projects
+
+Resume
+
+Contact
+
+
+
+#---------- PROJECT ----------#
+
+alt = Pixstock - Stock Media App
+
+Web App
+Pixstock - Stock Media App
+
+alt = Cook.io - Recipe App
+
+Web App
+Cook.io - Recipe App
+
+alt = GitFinder - Github User Finder
+
+Web App
+GitFinder - Github User Finder
+
+alt = Weatherio - Live Weather App
+
+Web App
+Weatherio - Live Weather App
+
+alt = Tvflix - Netflix Clone 2.0
+
+Web App
+Tvflix - Netflix Clone 2.0
+
+alt = Travelia - Travel Website
+
+Website
+Travelia - Travel Website
+
+
+
+#---------- RESUME ----------#
+
+Experience
+
+web designer & programmer, TechGulf Solutions
+2026 - Present
+
+Led the development of a customer management system, resulting in improved efficiency and streamlined processes.
+
+Software Developer Intern, ByteOasis Corporation
+2026
+
+Assisted in the development and testing of a mobile application for internal use.
+
+Education
+
+Certification in Web Development with React.js (FreeCodeCamp Certification)
+2026
+
+Relevant Coursework: Data Structures, application programming, Database Management
+2026 - Present
+
+Ungoing Bachelor of Engineering in Electrical Engineering, Edo State University
+2023 - 2028
+
+Skills and Technologies
+
+HTML5
+CSS3
+JavaScript
+React.js
+Node.js
+GitHub
+MongoDB
+VS Code
+
+
+
+
+#---------- CONTACT ----------#
+
+Contact Info
+
+<span class="material-symbols-outlined" aria-hidden="true"> gmail </span>
+
+gmail Us
+Obahiagbondaniel@gmail.com
+Obahiagbondaniel@gmail.com
+
+<span class="material-symbols-outlined" aria-hidden="true"> call </span>
+
+Contact Us
++2348035679079
++2348035679079
+
+<span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+Address
+No 6 Ado Creascent Off MTN Mast Road, Benin City. Nigeria
+
+Social Info
+
+Let’s Work Together as a team.
+
+Name*
+Email*
+Subject
+Message*
+
+Send Message
+
+
+
+
+#---------- FOOTER ----------#
+
+Copyright 2026. All right reserved by DANIEL-IDAHOSA-OBAHIAGBON
