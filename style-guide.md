@@ -7,134 +7,106 @@ Google font
 ``` html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
-  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
 ```
 
-Material icon
+Ionicon
 
 ``` html
-<link rel="stylesheet"
-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 ```
 
 ---
 
-## CSS Variables
-
-### Colors
+## Colors
 
 ``` css
---white: hsl(0, 0%, 100%);
---black: hsl(0, 0%, 0);
+--gold-crayola: hsl(38, 61%, 73%);
+--quick-silver: hsla(0, 0%, 65%, 1);
+--davys-grey: hsla(30, 3%, 34%, 1);
+--smoky-black-1: hsla(40, 12%, 5%, 1);
+--smoky-black-2: hsla(30, 8%, 5%, 1);
+--smoky-black-3: hsla(0, 3%, 7%, 1);
+--eerie-black-1: hsla(210, 4%, 9%, 1);
+--eerie-black-2: hsla(210, 4%, 11%, 1);
+--eerie-black-3: hsla(180, 2%, 8%, 1);
+--eerie-black-4: hsla(0, 0%, 13%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--white-alpha-20: hsla(0, 0%, 100%, 0.2);
+--white-alpha-10: hsla(0, 0%, 100%, 0.1);
+--black: hsla(0, 0%, 0%, 1);
+--black-alpha-80: hsla(0, 0%, 0%, 0.8);
+--black-alpha-15: hsla(0, 0%, 0%, 0.15);
 ```
 
-Dark colors
+## Gradient color
 
 ``` css
---background-dark: hsl(260, 14%, 8%);
---on-background-dark: hsl(280, 17%, 90%);
---surface-dark: hsl(260, 14%, 8%);
---on-surface-dark: hsl(280, 17%, 90%);
---on-surface-variant-dark: hsl(270, 11%, 79%);
---surface-container-low-dark: hsl(264, 8%, 12%);
---surface-container-dark: hsl(257, 10%, 14%);
---surface-bright-dark: hsl(270, 5%, 23%);
---primary-dark: hsl(258, 100%, 87%);
---on-primary-dark: hsl(259, 58%, 28%);
---outline-dark: hsl(264, 5%, 58%);
---outline-variant-dark: hsl(264, 7%, 29%);
+--loading-text-gradient: linear-gradient(90deg, transparent 0% 16.66%, var(--smoky-black-3) 33.33% 50%,  transparent 66.66% 75%);
+--gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent);
 ```
 
-Light colors
+## Typography
 
 ``` css
---background-light: hsl(293, 100%, 98%);
---on-background-light: hsl(264, 8%, 12%);
---surface-light: hsl(293, 100%, 98%);
---on-surface-light: hsl(264, 8%, 12%);
---on-surface-variant-light: hsl(264, 7%, 29%);
---surface-container-low-light: hsl(278, 44%, 96%);
---surface-container-light: hsl(276, 38%, 95%);
---surface-bright-light: hsl(293, 100%, 98%);
---primary-light: hsl(256, 34%, 48%);
---on-primary-light: hsl(0, 0%, 100%);
---outline-light: hsl(270, 4%, 47%);
---outline-variant-light: hsl(270, 11%, 79%);
-```
+--fontFamily-forum: 'Forum', cursive;
+--fontFamily-dm_sans: 'DM Sans', sans-serif;
 
-### Typography
+--fontSize-display-1: calc(1.3rem + 6.7vw);
+--fontSize-headline-1: calc(2rem + 2.5vw);
+--fontSize-headline-2: calc(1.3rem + 2.4vw);
+--fontSize-title-1: calc(1.6rem + 1.2vw);
+--fontSize-title-2: 2.2rem;
+--fontSize-title-3: 2.1rem;
+--fontSize-title-4: calc(1.6rem + 1.2vw);
+--fontSize-body-1: 2.4rem;
+--fontSize-body-2: 1.6rem;
+--fontSize-body-3: 1.8rem;
+--fontSize-body-4: 1.6rem;
+--fontSize-label-1: 1.4rem;
+--fontSize-label-2: 1.2rem;
 
-Font family
-
-``` css
---font-primary: 'Open Sans', sans-serif;
---font-secondary: 'Noto Sans', sans-serif;
-```
-
-Font size
-
-``` css
---base-font-size: 62.5%;
---display-large: 5.7rem;
---display-medium: 4.5rem;
---display-small: 3.6rem;
---headline-large: 3.2rem;
---headline-medium: 2.8rem;
---headline-small: 2.4rem;
---title-large: 2rem;
---title-medium: 1.6rem;
---title-small: 1.4rem;
---label-large: 1.4rem;
---label-medium: 1.2rem;
---label-small: 1.1rem;
---body-large: 1.6rem;
---body-medium: 1.4rem;
---body-small: 1.2rem;
-```
-
-Font weight
-
-``` css
 --weight-regular: 400;
---weight-medium: 500;
+--weight-bold: 700;
+
+--lineHeight-1: 1em;
+--lineHeight-2: 1.2em;
+--lineHeight-3: 1.5em;
+--lineHeight-4: 1.6em;
+--lineHeight-5: 1.85em;
+--lineHeight-6: 1.4em;
+
+--letterSpacing-1: 0.15em;
+--letterSpacing-2: 0.4em;
+--letterSpacing-3: 0.2em;
+--letterSpacing-4: 0.3em;
+--letterSpacing-5: 3px;
 ```
 
-### Border Radius
+## Spacing
 
 ``` css
---shape-corner-extra-small: 4px;
---shape-corner-small: 8px;
---shape-corner-medium: 12px;
---shape-corner-large: 16px;
---shape-corner-full: 500px;
---shape-corner-circle: 50%;
+--section-space: 70px;
 ```
 
-### Box shadow
+## Shadow
 
 ``` css
---elevation-1: 0px 1px 3px 1px #00000026, 0px 1px 2px 0px #0000004d;
+--shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
 ```
 
-### Others
+## Border Radius
 
 ``` css
---section-padding: 24px;
---top-bar-height: 64px;
+--radius-24: 24px;
+--radius-circle: 50%;
 ```
 
-### Transition
-
-Duration
+## Transition
 
 ``` css
---motion-duration-short-1: 100ms;
-```
-
-Easing
-
-``` css
---motion-easing-linear: cubic-bezier(0, 0, 1, 1);
+--transition-1: 250ms ease;
+--transition-2: 500ms ease;
+--transition-3: 1000ms ease;
 ```
