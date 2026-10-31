@@ -626,9 +626,6 @@ body {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #ABOUT CARD
 \*-----------------------------------*/
@@ -674,9 +671,6 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 12px;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -780,12 +774,12 @@ body {
   color: #25D366;
 }
 
-.social-link .fa-facebook-f {
-  color: #00f;
+.social-link .fa.linkedin {
+  color: darkblue;
 }
 
-.social-link .fa-instargram {
-  color: #ff0000;
+.social-link .fa-tiktok {
+  color: black;
 }
 
 .input-wrapper {
